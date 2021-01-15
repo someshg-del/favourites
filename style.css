@@ -1,0 +1,153 @@
+body {
+    text-align: center;
+ 
+}
+
+img {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    margin-top: 100px;
+    top:100px;
+}
+
+.line
+{
+    background-color: black;
+    width:70px;
+    height:5px;
+    margin:8px auto;
+}
+
+#info {
+    background: linear-gradient(#26ff1f 0%, #8dfca5 100%);
+    height: 700px;
+    z-index: 9px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Redressed', cursive;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+#para {
+    height: 800px;
+    text-align: center;
+    font-size:33px;
+    padding-left:450px;
+    
+}
+
+
+
+.links {
+    font-family:monospace;
+    font-size: 50px;
+    float: left;
+    color: cornflowerblue;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    display:inline;
+    
+}
+
+ p { 
+    max-width: 800px;
+    padding-left: 250px;
+    margin-top: 10px;
+    font-family: 'Redressed', cursive;
+   
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background-color: darkturquoise;
+}
+#games {
+    width: 100%;
+    height: 800px;
+    background-color: darkturquoise;
+}
+
+#inspi {
+    width: 100%;
+    height: 800px;
+    background-color:#d4fcf0;
+}
+
+#contact {
+    width: 100%;
+    height: 800px;
+    background-color:#fac0cb;
+}
+
+#books {
+    width: 100%;
+   
+    background-color:#d7fbfc;
+}
+
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    margin-top: 0px;
+    top:0px;
+    cursor: pointer;
+    z-index: 10px;
+    width:100%;
+    background: white;
+    text-align: center;
+    
+    
+}
+.links:hover {
+    background-color: #57ffc4;
+    font-size: 45px;
+    text-decoration: underline;
+    padding-left:33px;
+    padding-right:25px;
+}
+html {
+    scroll-behavior:smooth;
+}
+#chatbots {
+    width: 100%;
+    height: 1000px;
+    background-color: darkturquoise;
+}
+
+a
+{
+    text-decoration: none;
+    text-shadow:2px 2px gainsboro;
+    font-size:23px;
+    color:cornflowerblue;
+}
+
+#contact iframe
+{
+    width:100%;
+    height:700px;
+}
+#inspi img
+{
+    border-radius:0 !important;
+    width:800px;
+    height:400px;
+}
+#timid h3
+{
+    color:black !important;
+    font-size: 30px !important;
+}
